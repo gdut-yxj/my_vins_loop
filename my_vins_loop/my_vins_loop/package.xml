@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>my_vins_loop</name>
+  <version>0.0.0</version>
+  <description>The my_vins_loop package</description>
+  <maintainer email="user@todo.todo">User</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>rtabmap_ros</build_depend> <!-- 关键 -->
+  <build_depend>opencv</build_depend>      <!-- 关键 -->
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>rtabmap_ros</exec_depend> <!-- 关键 -->
+  <exec_depend>opencv</exec_depend>      <!-- 关键 -->
+</package>
